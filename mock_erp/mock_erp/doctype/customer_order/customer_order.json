@@ -12,6 +12,7 @@
   "delivery_date",
   "total_amount",
   "status",
+  "invoice",
   "items",
   "notes",
   "amended_from"
@@ -69,13 +70,19 @@
    "fieldtype": "Currency",
    "label": "Total Amount",
    "read_only": 1
+  },
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Link",
+   "label": "Invoice",
+   "options": "Invoice"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-02 15:53:05.557723",
+ "modified": "2025-09-03 13:53:10.247555",
  "modified_by": "Administrator",
  "module": "Mock Erp",
  "name": "Customer Order",

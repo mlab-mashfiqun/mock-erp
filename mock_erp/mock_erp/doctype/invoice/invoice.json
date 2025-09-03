@@ -48,7 +48,6 @@
   {
    "fieldname": "outstanding_amount",
    "fieldtype": "Currency",
-   "is_virtual": 1,
    "label": "Outstanding Amount",
    "read_only": 1
   },
@@ -91,7 +90,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-02 13:41:55.666420",
+ "modified": "2025-09-03 15:56:03.395569",
  "modified_by": "Administrator",
  "module": "Mock Erp",
  "name": "Invoice",

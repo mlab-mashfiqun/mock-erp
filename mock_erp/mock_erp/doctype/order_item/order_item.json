@@ -8,6 +8,7 @@
  "field_order": [
   "product",
   "quantity",
+  "rate",
   "amount"
  ],
  "fields": [
@@ -26,15 +27,20 @@
    "fieldname": "amount",
    "fieldtype": "Currency",
    "label": "Amount",
-   "options": "product.price * quantity",
    "read_only": 1
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Rate"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-09-02 13:34:46.932438",
+ "modified": "2025-09-03 13:18:25.537041",
  "modified_by": "Administrator",
  "module": "Mock Erp",
  "name": "Order Item",

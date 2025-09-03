@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:PAYMENT-{#####}-{reference_number}",
+ "autoname": "format:PAYMENT-{#####}",
  "creation": "2025-09-02 12:05:58.151928",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -9,9 +9,12 @@
   "customer",
   "invoice",
   "payment_date",
+  "invoice_total",
+  "outstanding_before_payment",
   "amount",
   "payment_method",
   "reference_number",
+  "status",
   "notes"
  ],
  "fields": [
@@ -52,12 +55,31 @@
    "fieldname": "notes",
    "fieldtype": "Text",
    "label": "Notes"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nProcessed\nFailed"
+  },
+  {
+   "fieldname": "invoice_total",
+   "fieldtype": "Currency",
+   "label": "Invoice Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "outstanding_before_payment",
+   "fieldtype": "Currency",
+   "label": "Outstanding Before Payment",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-02 12:49:36.673176",
+ "modified": "2025-09-03 16:33:15.280678",
  "modified_by": "Administrator",
  "module": "Mock Erp",
  "name": "Payment",
