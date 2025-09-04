@@ -3,6 +3,7 @@
  "allow_rename": 1,
  "autoname": "format:INVOICE-{#####}",
  "creation": "2025-09-02 12:02:58.518881",
+ "default_email_template": "Invoice Email Template",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -90,7 +91,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-03 15:56:03.395569",
+ "modified": "2025-09-04 12:37:50.410927",
  "modified_by": "Administrator",
  "module": "Mock Erp",
  "name": "Invoice",

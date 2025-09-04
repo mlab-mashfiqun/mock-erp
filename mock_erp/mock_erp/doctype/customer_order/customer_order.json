@@ -11,7 +11,6 @@
   "order_date",
   "delivery_date",
   "total_amount",
-  "status",
   "invoice",
   "items",
   "notes",
@@ -49,12 +48,6 @@
    "label": "Delivery Date"
   },
   {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "Draft\nConfirmed\nProcessing\nShipped\nDelivered\nCancelled"
-  },
-  {
    "fieldname": "items",
    "fieldtype": "Table",
    "label": "Items",
@@ -82,7 +75,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-03 13:53:10.247555",
+ "modified": "2025-09-04 17:38:14.656557",
  "modified_by": "Administrator",
  "module": "Mock Erp",
  "name": "Customer Order",
